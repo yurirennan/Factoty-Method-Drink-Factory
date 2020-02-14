@@ -9,15 +9,11 @@ package br.edu.fafic.classes;
  *
  * @author yurir
  */
-public class Beer extends Drink{
-
-    public Beer(float volume, String name) {
-        super(volume, name);
-    }
+public class FactorySoda extends Factory{
 
     @Override
-    public void sell() {
-        System.out.println("Uma " + this.getName() + " de " + this.getVolume() + " ml foi vendida!");
+    public Drink sellDrink(float volume, String name) {
+        return new Soda(volume, name);
     }
     
 }
