@@ -17,7 +17,7 @@ public class Soda extends Drink{
 
     @Override
     public void sell() {
-        System.out.println("Um refrigerante foi vendido");
+        System.out.println("Um " + this.getName() + " de " + this.getVolume() + " ml foi vendido");
     }
     
 }
