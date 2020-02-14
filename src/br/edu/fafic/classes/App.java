@@ -14,7 +14,7 @@ public class App {
         Factory factoryBeer = new FactoryBeer();
         Factory factorySoda = new FactorySoda();
         
-        Drink beer = factoryBeer.sellDrink(500,"Schin");
+        Drink beer = factoryBeer.sellDrink(500,"Schinnnnn");
         Drink coca = factorySoda.sellDrink(2000, "Coca-Cola");
         
         beer.sell();
